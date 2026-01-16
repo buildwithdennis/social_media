@@ -1,3 +1,4 @@
+@import "tailwindcss";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 
 @tailwind base;
@@ -10,7 +11,7 @@
   }
 
   body {
-    @apply bg-dark-1 text-white min-h-screen font-inter;
+    @apply bg-dark-3 text-white min-h-screen font-inter;
   }
 }
 
@@ -157,7 +158,7 @@
   }
 
   .post_details-img {
-    @apply h-80 lg:h-[480px] xl:w-[48%] rounded-t-[30px] xl:rounded-l-[24px] xl:rounded-tr-none object-cover p-5 bg-dark-1;
+    @apply h-80 lg:h-[480px] xl:w-[48%] rounded-t-[30px] xl:rounded-l-[24px] xl:rounded-tr-none object-cover p-5 bg-dark-3;
   }
 
   .post_details-info {
